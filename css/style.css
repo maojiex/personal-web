@@ -1,0 +1,71 @@
+
+
+body{
+    background-image: url("../image/hd-wallpaper-2435404.jpg");
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    margin-bottom: 100px;
+    
+}
+
+/* Add a black background color to the top navigation */
+.header {
+    background-color: rgb(182, 131, 131);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  
+/* Style the links inside the navigation bar */
+.header a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.header a.active {
+  background-color: #950d5d8e;
+  color: white;
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  background-color: rgb(182, 131, 131);
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.footer_container{
+  display: flex;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.avatar{
+  border-radius: 50%;
+  width: 80px;
+  height: 65px;
+}

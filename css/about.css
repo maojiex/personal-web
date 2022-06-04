@@ -1,0 +1,14 @@
+.about_me{
+
+    text-align: center;
+    resize: both;
+}
+
+.go{
+    width: 20%;
+}
+
+.go_container{
+    display: flex;
+}
+
